@@ -107,7 +107,7 @@ jobs:
           else
             echo "version=latest" >> $GITHUB_OUTPUT
             echo "major_minor=latest" >> $GITHUB_OUTPUT
-          fi
+          fi 
 
       - name: Extract metadata
         id: meta
